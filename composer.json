@@ -10,7 +10,7 @@
         "color extractor"
     ],
     "support": {
-        "docs": "https://github.com/born05/craft-colorextractor/blob/craft4/README.md",
+        "docs": "https://github.com/born05/craft-colorextractor/blob/craft5/README.md",
         "issues": "https://github.com/born05/craft-colorextractor/issues"
     },
     "license": "MIT",
@@ -22,7 +22,7 @@
     ],
     "require": {
         "php": "^8.0.2",
-        "craftcms/cms": "^4.0.0-alpha",
+        "craftcms/cms": "^4.0.0-alpha || ^5.0.0",
         "ksubileau/color-thief-php": "^2.0"
     },
     "autoload": {
@@ -35,7 +35,7 @@
         "handle": "color-extractor",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/born05/craft-colorextractor/craft4/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/born05/craft-colorextractor/craft5/CHANGELOG.md",
         "components": {
             "asset": "born05\\colorextractor\\services\\Asset",
             "assetUpload": "born05\\colorextractor\\services\\AssetUpload",
